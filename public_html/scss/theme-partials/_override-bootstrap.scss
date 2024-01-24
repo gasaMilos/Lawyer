@@ -1,0 +1,18 @@
+
+
+html{
+    font-size: 10px;
+}
+
+$font-size-base: 1.6rem;
+
+//overide bootstrap variables
+
+$grid-gutter-width: 12px;
+$gray-900: #1E1E1E;
+$primary: #1A77CD;
+$font-weght-medium: 500;
+
+$navbar-light-color:        $gray-900;
+$navbar-light-hover-color:  $primary;
+$navbar-light-active-color: $primary;
