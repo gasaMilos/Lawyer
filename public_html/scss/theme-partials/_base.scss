@@ -8,3 +8,23 @@ body{
     font-family: $base-font;
     font-weight: $font-weight-light;
 }
+
+main{
+    padding-top: 54.5px;
+}
+
+h2{
+    font-size: 3.6rem;
+    line-height: 6.4rem;
+}
+@media(min-width: 576px){
+    main{
+        padding-top: 57px;
+    }
+}
+
+@media(min-width: 1200px){
+    main{
+        padding-top: 77px;
+    }
+}
