@@ -24,7 +24,25 @@ $(document).ready(function(){
     });
     animation();
 
-    
+   //theme slider
+   if($('.team-members-slider').length >0){
+       $(".team-members-slider").owlCarousel({
+           responsive:{
+               0:{
+                   dots:true,
+                   items:1,
+                   margin:0,
+                   
+               },
+               992:{
+                    dots:true,
+                  items:2,
+                   margin:30,
+                  
+               }
+           }
+       });
+   }
     
     
     

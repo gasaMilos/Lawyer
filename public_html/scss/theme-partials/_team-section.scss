@@ -1,0 +1,31 @@
+$team-font-waight: $font-weght-medium;
+
+.team-section{
+    padding: 67px 0 61px;
+
+    .team-more{
+        font-size: 1.4rem;
+        font-weight: $team-font-waight;
+    }
+    .team-member-name{
+        margin-bottom: 1.5rem;
+        a{
+            line-height: 2.7rem;
+            font-size: 2.2rem
+        }
+    }
+    .fa-linkedin-in{
+        color: $gray-900;
+        font-size: 48px;
+    }
+}
+
+@media(min-width: 576px){
+    .team-section{
+        .team-member-info{
+            margin-bottom: 10rem;
+        }
+    }
+}
+
+
