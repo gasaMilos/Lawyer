@@ -9711,4 +9711,32 @@ header .navbar-nav a {
   }
 }
 
+footer {
+  padding: 15px 0;
+}
+
+footer .social a {
+  color: #2C2D3C;
+  font-size: 3rem;
+  margin: 0 5px;
+  transition: 1s linear;
+  transform: rotate(0deg);
+}
+
+footer .social a:hover {
+  transform: rotate(360);
+}
+
+footer .copyright {
+  color: #586C88;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 4.1rem;
+}
+
+footer .copyright a {
+  color: #586C88;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=theme.css.map */
