@@ -9739,4 +9739,14 @@ footer .copyright a {
   text-decoration: none;
 }
 
+.about-content {
+  padding: 50px 0;
+}
+
+@media (min-with: 992px) {
+  .about-content {
+    padding: 104px 0;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */

@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "about.css",
+	"sources": [
+		"../../scss/theme-partials/about.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,cAAc,CAAA;EACV,OAAO,EAAE,MAAM;CAClB;;AAED,MAAM,EAAC,QAAQ,EAAE,KAAK;EACnB,AAAA,cAAc,CAAA;IACb,OAAO,EAAE,OAAO;GACnB"
+}
